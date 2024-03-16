@@ -2,7 +2,7 @@
 
 ## Project Description
 
-"Play It" is a revolutionary application that blends the innovative capabilities of Claude 3's AI with an intuitive, user-friendly interface. This unique platform invites users of all ages to dive into the world of musical instruments. It enables exploration, learning, and engaging in rich educational conversations powered by visual content.
+"Play It" is a application that blends the innovative capabilities of Claude 3's AI with an intuitive, user-friendly interface. This unique platform invites users of all ages to dive into the world of musical instruments. It enables exploration, learning, and engaging in rich educational conversations powered by visual content.
 
 ## Getting Started
 
