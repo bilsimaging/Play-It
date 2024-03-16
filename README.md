@@ -49,5 +49,5 @@ streamlit run playit_streamlit.py
 
 ## Contributing
 
-Contributions to "Play It" are welcome! Please read `CONTRIBUTING.md` for details on our code of conduct, and the process for submitting pull requests to us.
+Contributions to "Play It" are welcome!
 
