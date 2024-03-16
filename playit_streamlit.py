@@ -39,7 +39,7 @@ with st.expander("About 'Play It' - A Musical Discovery App", expanded=False):
     - **Educational Enrichment:** "Play It" serves as a valuable resource for educators and students, offering an engaging way to supplement music education. From classroom discussions to individual exploration, it fosters a deeper appreciation and understanding of musical instruments and their role in various cultures.  
     - **Passionate Hobbyists and Musicians:** Whether you're a seasoned musician or a curious hobbyist, "Play It" opens up a world of exploration. Discover new instruments, delve into their stories, and maybe even find inspiration for your next musical journey.
     """, unsafe_allow_html=True)
-
+st.markdown("---")
 uploaded_file = st.file_uploader("Upload an image of a musical instrument", type=["jpg", "jpeg", "png"])
 
 if uploaded_file is not None:
@@ -87,3 +87,14 @@ if uploaded_file is not None:
                     st.write(block_text)
     else:
         st.write("An error occurred, or no content was returned. Please try again.")
+
+
+# Footer & Support Section
+st.markdown("---")
+st.markdown("✔️ **Project MVV**: This application is part of the MVV initiative, developed with **Team Bilsimaging** for their participation in the **LabLab AI 24-Hour Claude Hackathon**.")
+st.markdown("If you find value in what I do and wish to support my efforts, please consider making a donation. Your support enables me to continue creating and sharing valuable projects. **Thank you for being part of this journey! - Bilel Aroua**")
+st.markdown("For support, feel free to ☕ [Buy me a Coffee](https://ko-fi.com/bilsimaging).")
+st.image('https://storage.ko-fi.com/cdn/brandasset/kofi_button_dark.png', width=150)
+
+# Hide Streamlit branding
+st.markdown("<style>#MainMenu {visibility: hidden;} footer {visibility: hidden;}</style>", unsafe_allow_html=True)        
